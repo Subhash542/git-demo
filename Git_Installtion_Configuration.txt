@@ -1,0 +1,36 @@
+GIT Installation on Windows:-
+
+Download git doe windows ,execute .exe file 
+Configuration - After installation first step is configuration. Very basic 
+
+Name 
+Emai ID
+
+
+
+Subhash Kumar@Subhash-PC MINGW64 ~
+$ git config --global user.name "Subhash Kumar"
+
+Subhash Kumar@Subhash-PC MINGW64 ~
+$ git config --global user.email "subhash542@gmail.com"
+
+Subhash Kumar@Subhash-PC MINGW64 ~
+$ pwd
+/c/Users/Subhash Kumar
+
+Subhash Kumar@Subhash-PC MINGW64 ~
+$ git config --global --list
+core.editor="C:\Users\Subhash Kumar\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait
+user.name=Subhash Kumar
+user.email=subhash542@gmail.com
+
+Subhash Kumar@Subhash-PC MINGW64 ~
+$ cat ~/.gitconfig
+[core]
+        editor = \"C:\\Users\\Subhash Kumar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[user]
+        name = Subhash Kumar
+        email = subhash542@gmail.com
+
+Subhash Kumar@Subhash-PC MINGW64 ~
+
