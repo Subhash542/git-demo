@@ -1,3 +1,9 @@
+Change drive from C to D :
+
+ cd d:/
+
+
+
 GIT Installation on Windows:-
 
 Download git doe windows ,execute .exe file 
